@@ -46,8 +46,9 @@ vim django_film_api/django_film_api/settings.py
 #### データベースモデルの動作確認
 ```
 python3 manage.py shell
-# SAMPLE django_shell.ipynb 
-python manage.py shell_plus --notebook
+# SAMPLE django_shell.ipynb
+# OR 
+python3 manage.py shell_plus --notebook
 ```
 
 #### ビューを作成
@@ -58,6 +59,11 @@ vim django_film_api/film/views.py
 #### ルーティングを行う
 ```
 vim django_film_api/django_film_api/urls.py
+```
+
+#### DBセットアップ
+```
+python3 manage.py migrate
 ```
 
 #### Webサーバを起動
