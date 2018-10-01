@@ -75,6 +75,6 @@ python3 manage.py runserver
 #### JSONをリクエスト
 - curlでもよいですが、httpコマンドを使ってみます
 ```
-http 'http://localhost:8000/films.?page=2'
+http 'http://localhost:8000/films/?page=2'
 ```
 
